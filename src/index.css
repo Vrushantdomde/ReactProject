@@ -1,0 +1,176 @@
+*{ margin:0; padding: 0%;}
+.head{
+     color: rgb(208, 255, 0);
+     text-align: center;
+     text-transform: uppercase;
+     text-shadow: 0px 4px 8px teal;
+     margin: 05rem;
+     font-family: 'Oswald', sans-serif;}
+
+.image{
+    display: flex;
+    justify-content: center;
+  
+}
+.image img{
+      width: 250;
+      height: 150;
+      margin: 02rem;
+      
+}
+body{
+    background-color: tomato;
+}
+.greet{
+    
+    display: flex;
+    background-color: thistle;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 35rem ;
+    margin-right: 35rem;
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(57, 40, 151);
+}
+
+/* Unknown CSS start */
+.heading_style{
+    background-color:black;
+    text-align: center;
+    padding : 0.8rem;
+    color: thistle;
+    /* text-decoration-color: wheat; */
+    text-transform: uppercase;
+    text-shadow: 2px 4px 10px rgb(251, 255, 0);
+}
+
+.cards{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    position: relative;
+    margin-top: 10rem;
+}
+
+.card{
+    width: 350px;
+    height: 300px;
+}
+
+.card img{
+ width: 250px;
+ height: 200px;
+ box-shadow: 0 0 24px 2px black;
+}
+
+/* end  */
+
+/* Slot Machine CSS */
+.slotMachine{
+    
+   border-style: solid;
+   margin:39rem;
+   margin-top: 7rem;
+}
+.slot{
+        display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-style: solid;
+    padding: 20px;
+  
+}
+
+/* END */
+
+/* INcNum css */
+ .container{
+     margin-top: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    justify-content: center;
+    align-items: center;
+ }
+ .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: rgb(24, 143, 212);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .btn:hover {background-color: rgb(5, 95, 136)}
+  
+  .btn:active {
+    background-color: rgb(5, 95, 136);
+    box-shadow: 0 5px rgb(60, 83, 81);
+    transform: translateY(4px);
+  }
+/* END */
+
+/* Click Event CSS */
+  .centDiv{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+    
+  .styleip{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration-style: solid;
+  }
+
+
+
+/* End css */
+
+
+.main_div{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(24, 143, 212);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.center_div{
+  width: 25%;
+  height : 80vh;
+  background-color: seashell;
+  border-radius: 30px;
+
+}
+.Heading{
+  background-color: rgb(5, 95, 136);
+  color: white;
+  margin-top: 20px;
+}
+
+.AddBtn:hover{
+    color:rgb(13, 230, 13);
+}
+
+.DelBtn:hover{
+  color:red;
+}
