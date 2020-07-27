@@ -1,14 +1,17 @@
 import React from 'react';
 import DeleteOutlineIcon from '@material-ui/icons/DeleteOutline';
 import { Button } from '@material-ui/core';
-let Note = () =>{
+let Note =(props) =>{
+    var {title,text} = props.note;
     return(
         <>
+         <div className="col-3 my-3">
           <div className="note">
-              <h5> title</h5>
+              <h5>{title}</h5>
               <br/>
-              <p>this isn content</p>
-             <Button><DeleteOutlineIcon className="deleteIcon"/></Button> 
+              <p>{text}</p>
+             <Button onClick={()=>{props.delete(props.id)}}><DeleteOutlineIcon className="deleteIcon"/></Button> 
+          </div>
           </div>
 
         </>
