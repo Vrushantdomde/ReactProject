@@ -17,6 +17,7 @@ import IncreDecre from './IncreDecre';
 import NpmUse from './NpmUse';
 import MToDoList from './MToDoList';
 import Boot5Use from './Boot5Use';
+import KeepNote from './ProjectKeepNote';
 function App() {
     return (
         <>
@@ -37,7 +38,8 @@ function App() {
             {/* <IncreDecre/> */}
             {/* <NpmUse/> */}
             {/* <MToDoList/> */}
-            <Boot5Use/>
+            {/* <Boot5Use/> */}
+            <KeepNote/>
         </>
        
     )
