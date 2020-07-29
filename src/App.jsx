@@ -18,6 +18,7 @@ import NpmUse from './NpmUse';
 import MToDoList from './MToDoList';
 import Boot5Use from './Boot5Use';
 import KeepNote from './ProjectKeepNote';
+import ContextAPI from './ContextAPI';
 function App() {
     return (
         <>
@@ -39,7 +40,8 @@ function App() {
             {/* <NpmUse/> */}
             {/* <MToDoList/> */}
             {/* <Boot5Use/> */}
-            <KeepNote/>
+            {/* <KeepNote/> */}
+            <ContextAPI/>
         </>
        
     )
