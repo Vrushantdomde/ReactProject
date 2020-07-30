@@ -19,6 +19,9 @@ import MToDoList from './MToDoList';
 import Boot5Use from './Boot5Use';
 import KeepNote from './ProjectKeepNote';
 import ContextAPI from './ContextAPI';
+import UseEffect from './UseEffect';
+import ChgTitle from './ChgTitle';
+import AxiosPokemon from './Axios';
 function App() {
     return (
         <>
@@ -41,7 +44,10 @@ function App() {
             {/* <MToDoList/> */}
             {/* <Boot5Use/> */}
             {/* <KeepNote/> */}
-            <ContextAPI/>
+            {/* <ContextAPI/> */}
+            {/* <UseEffect/> */}
+            {/* <ChgTitle/> */}
+            <AxiosPokemon/>
         </>
        
     )
