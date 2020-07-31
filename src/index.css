@@ -174,3 +174,19 @@ body{
 .DelBtn:hover{
   color:red;
 }
+
+
+/* css used in Navbar.jsx */
+
+a.active_class{
+  color:black;
+  font-weight: bold;
+  border-bottom: 1px solid red;
+}
+/* end */
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

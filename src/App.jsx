@@ -22,6 +22,7 @@ import ContextAPI from './ContextAPI';
 import UseEffect from './UseEffect';
 import ChgTitle from './ChgTitle';
 import AxiosPokemon from './Axios';
+import Router from './Router';
 function App() {
     return (
         <>
@@ -47,7 +48,8 @@ function App() {
             {/* <ContextAPI/> */}
             {/* <UseEffect/> */}
             {/* <ChgTitle/> */}
-            <AxiosPokemon/>
+            {/* <AxiosPokemon/> */}
+            <Router/>
         </>
        
     )
