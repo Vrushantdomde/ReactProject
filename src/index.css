@@ -53,12 +53,12 @@ body{
     margin-top: 10rem;
 }
 
-.card{
+.card1{
     width: 350px;
     height: 300px;
 }
 
-.card img{
+.card1 img{
  width: 250px;
  height: 200px;
  box-shadow: 0 0 24px 2px black;
@@ -86,7 +86,7 @@ body{
 /* END */
 
 /* INcNum css */
- .container{
+ .container1{
      margin-top: 20rem;
     margin-left: auto;
     margin-right: auto;
@@ -94,7 +94,7 @@ body{
     justify-content: center;
     align-items: center;
  }
- .btn {
+ .btn1 {
     display: inline-block;
     padding: 15px 25px;
     font-size: 24px;
@@ -109,9 +109,9 @@ body{
     box-shadow: 0 9px #999;
   }
   
-  .btn:hover {background-color: rgb(5, 95, 136)}
+  .btn1:hover {background-color: rgb(5, 95, 136)}
   
-  .btn:active {
+  .btn1:active {
     background-color: rgb(5, 95, 136);
     box-shadow: 0 5px rgb(60, 83, 81);
     transform: translateY(4px);

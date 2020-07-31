@@ -23,6 +23,7 @@ import UseEffect from './UseEffect';
 import ChgTitle from './ChgTitle';
 import AxiosPokemon from './Axios';
 import Router from './Router';
+import FinalProject from './FinalProject';
 function App() {
     return (
         <>
@@ -49,7 +50,8 @@ function App() {
             {/* <UseEffect/> */}
             {/* <ChgTitle/> */}
             {/* <AxiosPokemon/> */}
-            <Router/>
+            {/* <Router/> */}
+            <FinalProject/>
         </>
        
     )
